@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    color: black;   
+}
+h1{
+    color: rgb(2, 2, 22);
+    text-align: center;
+    font-weight:  bold; 
+}
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: grey;
+
+}
+header img{
+    width: 6vw; /*vw: viewport widt */
+    padding: 5px;
+
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 12pt;
+    margin-left:  15px;
+    
+}
+aside{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+aside h2, aside p{
+    padding: 10px;
+    margin:0px 10px 0px 10px; /*top right bottom left*/
+}
+.text h2, .text p{
+    padding: 10px;
+    margin:  20px 10px px 10px;
+}
+.text p{
+    font-weight: bolder;
+}
+h2{
+    padding: 13px;
+
+}
+#Toucinho{
+    width: 500px
+}
+.receita{
+    font-size: 0%;
+    line-height: 0%;
+    font-family:'Kalam', cursive;
+    letter-spacing: 1px;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
